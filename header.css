@@ -1,0 +1,96 @@
+.main_container {
+  background-color: #CBECFF;
+  background-image: url("img/hand.png");
+  background-repeat: no-repeat;
+  padding-top: 29px;
+  background-position: right;
+  background-size: 700px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+}
+
+.left_part_logo {
+  color: #29374E;
+  margin-right: 6px;
+}
+
+.right_part_logo {
+  color: #0962E8;
+  border-radius: 20px;
+  background: #FFF;
+  width: 122px;
+  height: 80px;
+  text-align: center;
+}
+
+.header_info_block {
+  width: 50%;
+  margin-bottom: 250px;
+  margin-top: 78px;
+}
+
+.info_block_logo {
+  display: flex;
+  font-family: "Inter-bold";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 130%;
+  /* 83.2px */
+  letter-spacing: 0.384px;
+  margin-bottom: 12px;
+
+}
+
+.info_block_text {
+  color: #29374E;
+  font-family: "Inter";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 130%;
+  margin-bottom: 38px;
+  /* 28.6px */
+  max-width: 75%;
+}
+
+.info_block_button {
+  padding: 0 20px;
+  height: 50px;
+  text-align: center;
+  border-radius: 8px;
+  background: #0962E8;
+  color: white;
+  font-size: 18px;
+  font-family: "Inter";
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.lang {
+  display: flex;
+  cursor: pointer;
+  margin-left: auto;
+  justify-content: right;
+}
+
+.lang .active {
+  background-color: white;
+  display: inline-block;
+  color: #0962E8;
+}
+
+.lang_elem {
+  font-size: 14px;
+  padding: 3px 5px;
+  border-radius: 12px;
+  margin: 0 7px;
+}
