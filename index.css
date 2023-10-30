@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.main_container {
+  background-color: #CBECFF;
+  background-image: url("img/hand.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: right;
+
+
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 60px;
+  display: flex;
+}
+
+.left_part_logo {
+  color: #29374E;
+}
+
+.right_part_logo {
+  color: #0962E8;
+  border-radius: 20px;
+  background: #FFF;
+  width: 122px;
+  height: 80px;
+  text-align: center;
+}
+
+.header_info_block {
+  width: 50%;
+  margin-bottom: 280px;
+  margin-top: 129px;
+}
+
+.info_block_logo {
+  display: flex;
+  font-family: "Inter-bold";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 130%;
+  /* 83.2px */
+  letter-spacing: 0.384px;
+
+}
+
+.info_block_text {
+  color: #29374E;
+  font-family: "Inter";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 130%;
+  margin-bottom: 38px;
+  /* 28.6px */
+}
+
+.info_block_button {
+  padding: 0 20px;
+  height: 50px;
+  text-align: center;
+  border-radius: 8px;
+  background: #0962E8;
+  color: white;
+  font-size: 18px;
+  font-family: "Inter";
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
