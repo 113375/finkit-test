@@ -8,10 +8,9 @@
   background-color: #CBECFF;
   background-image: url("img/hand.png");
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  padding-top: 29px;
   background-position: right;
-
-
+  background-size: 700px;
 }
 
 .container {
@@ -20,12 +19,12 @@
 }
 
 .header {
-  padding: 60px;
   display: flex;
 }
 
 .left_part_logo {
   color: #29374E;
+  margin-right: 6px;
 }
 
 .right_part_logo {
@@ -40,7 +39,7 @@
 .header_info_block {
   width: 50%;
   margin-bottom: 280px;
-  margin-top: 129px;
+  margin-top: 78px;
 }
 
 .info_block_logo {
@@ -52,6 +51,7 @@
   line-height: 130%;
   /* 83.2px */
   letter-spacing: 0.384px;
+  margin-bottom: 12px;
 
 }
 
@@ -64,6 +64,7 @@
   line-height: 130%;
   margin-bottom: 38px;
   /* 28.6px */
+  max-width: 75%;
 }
 
 .info_block_button {
@@ -78,4 +79,24 @@
   line-height: 50px;
   display: inline-block;
   cursor: pointer;
+}
+
+.lang {
+  display: flex;
+  cursor: pointer;
+  margin-left: auto;
+  justify-content: right;
+}
+
+.lang .active {
+  background-color: white;
+  display: inline-block;
+  color: #0962E8;
+}
+
+.lang_elem {
+  font-size: 14px;
+  padding: 3px 5px;
+  border-radius: 12px;
+  margin: 0 7px;
 }
