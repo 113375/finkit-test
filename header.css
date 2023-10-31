@@ -51,7 +51,6 @@
 
 .info_block_text {
   color: #29374E;
-  font-family: "Inter";
   font-size: 22px;
   font-style: normal;
   font-weight: 200;
@@ -69,7 +68,6 @@
   background: #0962E8;
   color: white;
   font-size: 18px;
-  font-family: "Inter";
   line-height: 50px;
   display: inline-block;
   cursor: pointer;

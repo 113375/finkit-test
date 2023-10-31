@@ -5,16 +5,22 @@
 }
 
 .group_blocks .block {
-  max-width: 200px;
+  width: 20%;
   max-height: 130px;
   display: flex;
   border-radius: 20px;
   font-size: 16px;
   color: #29374E;
-  padding: 30px 20px 22px 20px;
+  padding: 15px 17px 30px 20px;
   background: #FFF;
   /*  background: red;*/
   box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+  justify-content: space-between
+}
+
+.group_blocks .block .block_text {
+  padding-top: 7px;
+  padding-right: 4px;
 }
 
 .group_blocks {
@@ -28,9 +34,18 @@
 .icon_img {
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #EFF9FF;
+  display: flex;
   /*  margin: 15px;*/
+}
+
+.icon_img img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: block;
+
 }
 
 .main_blocks {
@@ -42,4 +57,18 @@
   max-width: 1024px;
 
   margin: auto;
+}
+
+.main_second_block{
+  padding-top: 150px;
+}
+
+.second_block_container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.second_block_container .text_title_block{
+  margin: 0 auto;
+  display: inline-block;
 }
