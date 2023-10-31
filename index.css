@@ -8,7 +8,7 @@
 
 
 .group_blocks .block {
-  min-width: 23.5%;
+  width: 50%;
   
 /*  max-height: 130px;*/
   display: flex;
@@ -19,7 +19,7 @@
   background: #FFF;
   /*  background: red;*/
   box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
-  justify-content: space-between
+/*  justify-content: space-between*/
 }
 
 .group_blocks .block .block_text {
@@ -29,9 +29,14 @@
 
 .group_blocks {
   display: flex;
-  justify-content: space-between;
+/*  justify-content: space-between;*/
   margin: 0 auto;
+  margin-top: 180px;
+  margin-bottom: -35px;
+}
 
+.layer{
+  display: flex;
 }
 
 
@@ -52,13 +57,10 @@
 }
 
 .main_blocks {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 570px;
   bottom: 0;
-  max-width: 1024px;
-  margin: auto;
+  width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 /*стили второго блока*/
@@ -135,7 +137,7 @@
   width: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  /*  background-position: top=top center=center top=50% 0%;*/
+/*    background-position: top=top center=center top=50% 0%;*/
 }
 
 .info_block .img_block.risk_1 {
@@ -225,7 +227,18 @@
   margin-left: 10px;
 }
 
-
-body {
-  margin-bottom: 1000px;
+@media (max-width: 639px){
+  .second_block_container .text_title_block{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .group_blocks{
+    flex-wrap: wrap;
+    display: block;
+    width: 100%;
+  }
+  .group_blocks .layer .block{
+    width: 50%;
+  }
 }
