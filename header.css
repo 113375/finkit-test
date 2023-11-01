@@ -32,7 +32,7 @@
 
 .header_info_block {
   width: 50%;
-/*  margin-bottom: 250px;*/
+  /*  margin-bottom: 250px;*/
   margin-top: 78px;
 }
 
@@ -91,4 +91,10 @@
   padding: 3px 5px;
   border-radius: 12px;
   margin: 0 7px;
+}
+
+@media (max-width: 469px) {
+  .main_container {
+    background-position: top;
+  }
 }
