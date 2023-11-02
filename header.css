@@ -95,6 +95,47 @@
 
 @media (max-width: 469px) {
   .main_container {
-    background-position: top;
+    background-position: unset;
   }
+
+  .header_info_block {
+    width: 100%;
+    margin-top: 458px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .info_block_text {
+    max-width: 100%;
+    margin-bottom: 10px;
+    color: #29374E;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+
+  }
+
+  .info_block_logo {
+    font-size: 48px;
+  }
+
+  .right_part_logo {
+    width: 90px;
+    height: 60px;
+  }
+
+  .info_block_button {
+    width: 100%;
+  }
+  
+/*  TODO разобраться с расположением фона в header*/
+
 }
