@@ -65,7 +65,7 @@
 
 .main_blocks {
   bottom: 0;
-  max-width: 1024px;
+  width: 1024px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -214,6 +214,7 @@
   margin-bottom: 21px;
   width: 49%;
   padding: 17px 20px 30px 28px;
+  display: grid;
 }
 
 .block .text_block_layer {
@@ -285,9 +286,79 @@
 
   }
 
+  .main_blocks {
+    width: unset;
+    max-width: 100%;
+  }
 
-  .second_block_container .text_title_block {
+  block .second_block_container .text_title_block {
     margin-bottom: 8px;
+  }
+
+  .header_text {
+    font-size: 16px;
+    color: #29374E;
+  }
+
+  .info_text {
+    font-size: 13px;
+  }
+
+  .text_block {
+    margin-top: 25px;
+  }
+
+  .info_block .img_block {
+    margin-top: 5px;
+  }
+
+  /*  TODO исправить отображение блоков нижних*/
+
+
+  .main_third_block {
+    margin-top: 40px;
+  }
+
+  .third_block_container {
+    display: block;
+  }
+
+  .left_info_block {
+    width: 100%;
+  }
+
+  .right_group_block {
+    width: 100%;
+  }
+
+  .left_info_block {
+    margin-bottom: 37px;
+  }
+
+  .left_info_block_text .header_text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    /* 31.2px */
+    letter-spacing: -0.72px;
+  }
+
+  .left_info_block_text .info_text {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .block_layer .block {
+    box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    padding: 10px 11px 16px 18px;
+  }
+
+  .block_layer .block .text_block_layer {
+    margin-top: 7px;
   }
 
 }
