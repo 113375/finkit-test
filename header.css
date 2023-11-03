@@ -93,9 +93,17 @@
   margin: 0 7px;
 }
 
-@media (max-width: 469px) {
+@media (max-width: 639px) {
   .main_container {
     background-position: unset;
+    padding-bottom: 33px;
+    background-size: 630px;
+    margin-left: -20px;
+    padding-top: 35px;
+  }
+  
+  .lang{
+    margin-top: -10px;
   }
 
   .header_info_block {
@@ -135,6 +143,15 @@
   .info_block_button {
     width: 100%;
   }
+  
+  .group_blocks {
+    margin-bottom: 0;
+  }
+  
+  .header{
+    margin-left: 20px;
+  }
+  
   
 /*  TODO разобраться с расположением фона в header*/
 

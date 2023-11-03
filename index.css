@@ -291,7 +291,7 @@
     max-width: 100%;
   }
 
-  block .second_block_container .text_title_block {
+  .block .second_block_container .text_title_block {
     margin-bottom: 8px;
   }
 
@@ -360,5 +360,7 @@
   .block_layer .block .text_block_layer {
     margin-top: 7px;
   }
+  
+  
 
 }
