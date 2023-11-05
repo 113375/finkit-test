@@ -31,7 +31,7 @@
 }
 
 .header_info_block {
-  width: 50%;
+  width: 100%;
   /*  margin-bottom: 250px;*/
   margin-top: 78px;
 }
@@ -50,6 +50,7 @@
 }
 
 .info_block_text {
+
   color: #29374E;
   font-size: 22px;
   font-style: normal;
@@ -57,7 +58,7 @@
   line-height: 130%;
   margin-bottom: 38px;
   /* 28.6px */
-  max-width: 75%;
+  width: 400px;
 }
 
 .info_block_button {
@@ -107,7 +108,7 @@
   }
 
   .header_info_block {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 458px;
     margin-left: auto;
     margin-right: auto;
@@ -119,7 +120,7 @@
   }
 
   .info_block_text {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 10px;
     color: #29374E;
 
@@ -152,7 +153,6 @@
     margin-left: 20px;
   }
   
-  
-/*  TODO разобраться с расположением фона в header*/
+
 
 }
